@@ -33,6 +33,6 @@ AZURE_OPENAI_TOKEN: xxxx  # Authentication key. We can use Azure Active Director
 
 ## 访问控制
 # 是否启用访问控制。默认不启用。
-ACCESS_CONTROL_ENABLE: false
+ACCESS_CONTROL_ENABLE: true
 # 每个用户每天最多问多少个问题。默认为不限制. 配置成为小于等于0表示不限制。
-ACCESS_CONTROL_MAX_COUNT_PER_USER_PER_DAY: 0
+ACCESS_CONTROL_MAX_COUNT_PER_USER_PER_DAY: 3
